@@ -1,0 +1,38 @@
+[
+  {
+    "id": "flowforge",
+    "title": "FlowForge",
+    "description": "A rule-based workflow automation platform that executes trigger → condition → action pipelines asynchronously with Redis and BullMQ, including retry and dead-letter handling.",
+    "techStack": ["React", "Node.js", "Express", "MySQL", "Redis", "BullMQ"],
+    "features": [
+      "Backend services for REST, webhook, and cron listeners with Boolean rule evaluation and job dispatch.",
+      "MySQL schema with foreign keys, workflow indexing, and status enums.",
+      "JWT authentication, rate limiting, and encrypted secret storage."
+    ],
+    "githubUrl": "https://github.com/tanmays0"
+  },
+  {
+    "id": "elevare",
+    "title": "ELEVARE",
+    "description": "An AI-assisted career discovery platform that applies the OCEAN personality framework and Ikigai model to generate personalized recommendations.",
+    "techStack": ["React", "Node.js", "Python FastAPI", "MongoDB", "Groq", "Llama 3.3"],
+    "features": [
+      "Python FastAPI pipeline integrated with Groq (Llama 3.3) for personalized career path generation.",
+      "React and Vite frontend with a structured multi-step assessment experience.",
+      "MongoDB persistence for sessions and assessment responses."
+    ],
+    "githubUrl": "https://github.com/tanmays0"
+  },
+  {
+    "id": "admax-india",
+    "title": "AdMax India",
+    "description": "A hyperlocal SaaS advertising network that enables local businesses to display advertisements on nearby screens using proximity-based targeting.",
+    "techStack": ["React", "Node.js", "Express", "PostgreSQL", "Razorpay", "Maps API"],
+    "features": [
+      "Four modules: marketing site, advertiser dashboard, admin panel, and screen player with periodic ad polling.",
+      "Razorpay billing, Cloudinary media storage, and Google Maps-based screen targeting.",
+      "PostgreSQL data model with JWT-secured authentication across the platform."
+    ],
+    "githubUrl": "https://github.com/tanmays0"
+  }
+]
